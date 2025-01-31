@@ -21,9 +21,6 @@ app.get("/quote", async (req,res) => {
     }
 })
 
-
-
-
 app.listen(3000, ()=> {
     console.log("Server is live at 3000");
 })
